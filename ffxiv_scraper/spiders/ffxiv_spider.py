@@ -53,8 +53,6 @@ class FfxivSpiderSpider(scrapy.Spider):
     name = 'ffxiv_spider'
 
     def parse(self, response):
-        print("% s ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++" % self.job)
-
         jobBody = response.css('.job__tbody')
 
         pveActions = jobBody.css('[id*="pve_action"]')
