@@ -9,7 +9,7 @@ for job in jobs:
     print("Running ffxiv_spider for % s" % job)
     os.system("scrapy crawl ffxiv_spider -a job=% s" % job + " -s LOG_ENABLED=False")
 
-print("Downloads were completed in " + str((datetime.now() - startTime).total_seconds()) + " seconds")
+print("Finished in " + str((datetime.now() - startTime).total_seconds()) + " seconds")
 
 print("Building data with dataBuilder.py")
 
