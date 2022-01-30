@@ -1,0 +1,159 @@
+{
+  "paladin": {
+    "name": "PLD",
+    "name_description": "Paladin",
+    "img": "assets/images/PLD.png",
+    "role": "Tank",
+    "expansion": "ARR - 2.0",
+    "starting_level": "1",
+    "skills": []
+  },
+  "warrior": {
+    "name": "WAR",
+    "name_description": "Warrior",
+    "img": "assets/images/WAR.png",
+    "role": "Tank",
+    "expansion": "ARR - 2.0",
+    "starting_level": "1",
+    "skills": []
+  },
+  "gunbreaker": {
+    "name": "GNB",
+    "name_description": "Gunbreaker",
+    "img": "assets/images/GNB.png",
+    "role": "Tank",
+    "expansion": "ShB - 5.0",
+    "starting_level": "60",
+    "skills": []
+  },
+  "dancer": {
+    "name": "DNC",
+    "name_description": "Dancer",
+    "img": "assets/images/DNC.png",
+    "role": "Dps",
+    "expansion": "ShB - 5.0",
+    "starting_level": "60",
+    "skills": []
+  },
+  "machinist": {
+    "name": "MCH",
+    "name_description": "Machinist",
+    "img": "assets/images/MCH.png",
+    "role": "Dps",
+    "expansion": "HW - 3.0",
+    "starting_level": "30",
+    "skills": []
+  },
+  "darkknight": {
+    "name": "DRK",
+    "name_description": "Dark Knight",
+    "img": "assets/images/DRK.png",
+    "role": "Tank",
+    "expansion": "HW - 3.0",
+    "starting_level": "30"
+  },
+  "dragoon": {
+    "name": "DRG",
+    "name_description": "Dragoon",
+    "img": "assets/images/DRG.png",
+    "role": "Dps",
+    "expansion": "ARR - 2.0",
+    "starting_level": "1"
+  },
+  "bard": {
+    "name": "BRD",
+    "name_description": "Bard",
+    "img": "assets/images/BRD.png",
+    "role": "Dps",
+    "expansion": "ARR - 2.0",
+    "starting_level": "1"
+  },
+  "blackmage": {
+    "name": "BLM",
+    "name_description": "Black Mage",
+    "img": "assets/images/BLM.png",
+    "role": "Dps",
+    "expansion": "ARR - 2.0",
+    "starting_level": "1"
+  },
+  "ninja": {
+    "name": "NIN",
+    "name_description": "Ninja",
+    "img": "assets/images/NIN.png",
+    "role": "Dps",
+    "expansion": "ARR - 2.0",
+    "starting_level": "1"
+  },
+  "summoner": {
+    "name": "SMN",
+    "name_description": "Summoner",
+    "img": "assets/images/SMN.png",
+    "role": "Dps",
+    "expansion": "ARR - 2.0",
+    "starting_level": "1"
+  },
+  "whitemage": {
+    "name": "WHM",
+    "name_description": "White Mage",
+    "img": "assets/images/WHM.png",
+    "role": "Healer",
+    "expansion": "ARR - 2.0",
+    "starting_level": "1"
+  },
+  "scholar": {
+    "name": "SCH",
+    "name_description": "Scholar",
+    "img": "assets/images/SCH.png",
+    "role": "Healer",
+    "expansion": "ARR - 2.0",
+    "starting_level": "1"
+  },
+  "astrologian": {
+    "name": "AST",
+    "name_description": "Astrologian",
+    "img": "assets/images/AST.png",
+    "role": "Healer",
+    "expansion": "HW - 3.0",
+    "starting_level": "30"
+  },
+  "redmage": {
+    "name": "RDM",
+    "name_description": "Red Mage",
+    "img": "assets/images/RDM.png",
+    "role": "Dps",
+    "expansion": "SB - 4.0",
+    "starting_level": "50"
+  },
+  "samurai": {
+    "name": "SAM",
+    "name_description": "Samurai",
+    "img": "assets/images/SAM.png",
+    "role": "Dps",
+    "expansion": "SB - 4.0",
+    "starting_level": "50"
+  },
+  "monk": {
+    "name": "MNK",
+    "name_description": "Monk",
+    "img": "assets/images/MNK.png",
+    "role": "Dps",
+    "expansion": "ARR - 2.0",
+    "starting_level": "1"
+  },
+  "reaper": {
+    "name": "RPR",
+    "name_description": "Reaper",
+    "img": "assets/images/RPR.png",
+    "role": "Dps",
+    "expansion": "EW - 6.0",
+    "starting_level": "70"
+  },
+  "sage": {
+    "name": "SGE",
+    "name_description": "Sage",
+    "img": "assets/images/SGE.png",
+    "role": "Healer",
+    "expansion": "EW - 6.0",
+    "starting_level": "70"
+  }
+}
