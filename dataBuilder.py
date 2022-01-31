@@ -4,7 +4,10 @@ templateFile = open("dataTemplate.json")
 
 templates = json.load(templateFile)
 
-jobs = ['reaper', 'sage', 'summoner', 'paladin', 'astrologian', 'warrior', 'gunbreaker', 'darkknight', 'dragoon', 'whitemage', 'blackmage', 'dancer', 'machinist', 'bard', 'redmage', 'ninja', 'monk', 'samurai', 'scholar']
+templateFile.close()
+
+jobs = ['reaper', 'sage', 'summoner', 'paladin', 'astrologian', 'warrior', 'gunbreaker', 'darkknight', 'dragoon',
+        'whitemage', 'blackmage', 'dancer', 'machinist', 'bard', 'redmage', 'ninja', 'monk', 'samurai', 'scholar']
 
 dataOutput = {'data': []}
 
@@ -17,7 +20,7 @@ for job in jobs:
 
     dataOutput['data'].append(templates[job])
 
-with open("data.json", 'w') as outputFile:
+with open("data.json", write='w') as outputFile:
     json.dump(dataOutput, outputFile)
 
     print(
