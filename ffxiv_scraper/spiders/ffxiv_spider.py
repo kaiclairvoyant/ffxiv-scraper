@@ -41,7 +41,6 @@ class JobSkill:
             "description": description
         }
 
-
 class FfxivSpiderSpider(scrapy.Spider):
     def __init__(self, job=''):
         self.job = job
@@ -81,7 +80,5 @@ class FfxivSpiderSpider(scrapy.Spider):
 
             jobData.append(jobSkill.format())
 
-
         with open("jobs/% s.json" % self.job, 'w') as outputFile:
             json.dump(jobData, outputFile)
-
