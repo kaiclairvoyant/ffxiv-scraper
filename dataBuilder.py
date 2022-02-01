@@ -20,7 +20,7 @@ for job in jobs:
 
     dataOutput['data'].append(templates[job])
 
-with open("data.json", write='w') as outputFile:
+with open(file="data.json", mode='w') as outputFile:
     json.dump(dataOutput, outputFile)
 
     print(
