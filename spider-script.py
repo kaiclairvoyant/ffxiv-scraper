@@ -3,7 +3,13 @@ from datetime import datetime
 
 startTime = datetime.now()
 
-jobs = ['reaper', 'sage', 'summoner', 'paladin', 'astrologian', 'warrior', 'gunbreaker', 'darkknight', 'dragoon', 'whitemage', 'blackmage', 'dancer', 'machinist', 'bard', 'redmage', 'ninja', 'monk', 'samurai', 'scholar']
+jobsFolderExists = os.path.isdir('jobs/')
+
+if not jobsFolderExists:
+    os.mkdir('jobs/')
+
+jobs = ['reaper', 'sage', 'summoner', 'paladin', 'astrologian', 'warrior', 'gunbreaker', 'darkknight', 'dragoon',
+        'whitemage', 'blackmage', 'dancer', 'machinist', 'bard', 'redmage', 'ninja', 'monk', 'samurai', 'scholar']
 
 for job in jobs:
     print("Running ffxiv_spider for % s" % job)
